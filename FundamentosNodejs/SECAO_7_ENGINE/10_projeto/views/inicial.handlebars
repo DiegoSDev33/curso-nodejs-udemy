@@ -1,0 +1,9 @@
+<h1>USUARIOS </h1>
+
+<p>O nome do usuario é {{user.name}} {{user.sobrenome}}</p>
+
+{{#if admin}}
+   <p>parabens, voce tem acesso <a href="/cards">nosso perfil</a></p>
+{{else}}
+<p>voce nao tem acesso ao nosso perfil</p>
+{{/if}}

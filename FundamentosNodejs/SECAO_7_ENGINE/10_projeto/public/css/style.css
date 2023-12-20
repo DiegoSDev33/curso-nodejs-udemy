@@ -1,0 +1,15 @@
+nav{
+  background-color: beige;
+  height: 100px;
+}
+
+footer{
+  background-color: black;
+  height: 200px;
+}
+
+.banner{
+  border: 1px solid crimson;
+  display: flex;
+  justify-content: center
+}
