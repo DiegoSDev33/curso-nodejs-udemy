@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+color: rgb(7, 41, 105);
+text-align: center;
+}
+
+.btn-submit{
+  margin-left: 50%;
+  margin-top: 1em;
+}
+
+.title-name p{
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em;
+  padding: 0 2em;
+}
+
+.nav-esc{
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  padding: 0 2em;
+}
