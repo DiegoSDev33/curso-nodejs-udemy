@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+color: rgb(7, 41, 105);
+text-align: center;
+}
+
+.btn-submit{
+  margin-left: 50%;
+  margin-top: 1em;
+}
+
+.title-name p{
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em;
+  padding: 0 2em;
+}
+
+.nav-esc{
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  padding: 0 2em;
+}
+
+.task-list{
+  list-style: none;
+  margin-top: 1em;
+}
+
+.task-list li{
+  padding: .5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list .title{
+  font-weight: bold;
+  color: rgb(78, 68, 126);
+  font-size: 1.2em;
+  transition: .5s;
+}
+
+.task-list .title:hover{
+  color: black;
+}
+
+
+.actions{
+  display: flex;
+}
+
+.actions i{
+  font-size: 1.5em;
+  margin-right: 0.6em;
+  color: rgb(78, 68, 126);
+}
+
+.actions i:hover{
+  color: black;
+}
+
+.actions form{
+  margin: 0;
+}
+
+.actions button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
