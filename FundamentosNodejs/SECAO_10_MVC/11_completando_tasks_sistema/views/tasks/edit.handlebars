@@ -1,0 +1,32 @@
+<h1>Editando a tarefa: {{task.title}}</h1>
+<form action="/tasks/edit" method="POST">
+  <div class="container">
+    <div class="row">
+      <input type="hidden" name="id" value="{{task.id}}">
+      <div class="input-group mb-3">
+        <label for="title" class="input-group-text" id="basic-addon1">Título:</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="O que você vai fazer?"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+          name="title"
+          value="{{task.title}}"
+        />
+      </div>
+      <div class="form-floating">
+        
+        <textarea
+        name="description"
+          class="form-control"
+          placeholder="Descreva a tarefa..."
+          id="floatingTextarea"
+          value="{{task.description}}"
+        ></textarea>
+        <label for="description">Descrição</label>
+      </div>
+    </div>
+    <input type="submit" value="Criar" class="btn btn-primary btn-submit" />
+  </div>
+</form>
