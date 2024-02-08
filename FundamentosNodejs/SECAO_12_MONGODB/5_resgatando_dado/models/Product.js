@@ -34,7 +34,7 @@ class Product{
   }
 
   static async getProductById(id){
-    const product = await conn.db().collection('products').findOne({_id:new ObjectId(id)})
+    const product = await conn.db().collection('products').findOne({_id: new ObjectId(id)})
 
     return product
   }
